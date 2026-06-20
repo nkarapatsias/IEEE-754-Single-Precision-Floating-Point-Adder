@@ -1,0 +1,138 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do fp_adder_top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying A:/App_installations/Altera/Quartus_lite/intelFPGA_lite/21.1/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+A:/Desktop/Floating_point_adder/Modules {A:/Desktop/Floating_point_adder/Modules/round_pkg.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 19:22:44 on Jun 20,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+A:/Desktop/Floating_point_adder/Modules" A:/Desktop/Floating_point_adder/Modules/round_pkg.sv 
+# -- Compiling package round_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:22:44 on Jun 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+A:/Desktop/Floating_point_adder/Modules {A:/Desktop/Floating_point_adder/Modules/norm_adder.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 19:22:44 on Jun 20,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+A:/Desktop/Floating_point_adder/Modules" A:/Desktop/Floating_point_adder/Modules/norm_adder.sv 
+# -- Compiling module norm_adder
+# 
+# Top level modules:
+# 	norm_adder
+# End time: 19:22:44 on Jun 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+A:/Desktop/Floating_point_adder/Modules {A:/Desktop/Floating_point_adder/Modules/mantissa_calc.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 19:22:44 on Jun 20,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+A:/Desktop/Floating_point_adder/Modules" A:/Desktop/Floating_point_adder/Modules/mantissa_calc.sv 
+# -- Compiling module mantissa_calc
+# 
+# Top level modules:
+# 	mantissa_calc
+# End time: 19:22:45 on Jun 20,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+A:/Desktop/Floating_point_adder/Modules {A:/Desktop/Floating_point_adder/Modules/lzc.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 19:22:45 on Jun 20,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+A:/Desktop/Floating_point_adder/Modules" A:/Desktop/Floating_point_adder/Modules/lzc.sv 
+# -- Compiling module lzc
+# 
+# Top level modules:
+# 	lzc
+# End time: 19:22:45 on Jun 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+A:/Desktop/Floating_point_adder/Modules {A:/Desktop/Floating_point_adder/Modules/fp_adder_top.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 19:22:45 on Jun 20,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+A:/Desktop/Floating_point_adder/Modules" A:/Desktop/Floating_point_adder/Modules/fp_adder_top.sv 
+# -- Compiling module fp_adder_top
+# 
+# Top level modules:
+# 	fp_adder_top
+# End time: 19:22:45 on Jun 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+A:/Desktop/Floating_point_adder/Modules {A:/Desktop/Floating_point_adder/Modules/fp_adder.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 19:22:45 on Jun 20,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+A:/Desktop/Floating_point_adder/Modules" A:/Desktop/Floating_point_adder/Modules/fp_adder.sv 
+# -- Compiling module fp_adder
+# 
+# Top level modules:
+# 	fp_adder
+# End time: 19:22:45 on Jun 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+A:/Desktop/Floating_point_adder/Modules {A:/Desktop/Floating_point_adder/Modules/exponent_calc.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 19:22:45 on Jun 20,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+A:/Desktop/Floating_point_adder/Modules" A:/Desktop/Floating_point_adder/Modules/exponent_calc.sv 
+# -- Compiling module exponent_calc
+# 
+# Top level modules:
+# 	exponent_calc
+# End time: 19:22:45 on Jun 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+A:/Desktop/Floating_point_adder/Modules {A:/Desktop/Floating_point_adder/Modules/round_adder.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 19:22:45 on Jun 20,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+A:/Desktop/Floating_point_adder/Modules" A:/Desktop/Floating_point_adder/Modules/round_adder.sv 
+# -- Compiling package round_adder_sv_unit
+# -- Importing package round_pkg
+# -- Compiling module round_adder
+# 
+# Top level modules:
+# 	round_adder
+# End time: 19:22:45 on Jun 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+A:/Desktop/Floating_point_adder/Modules {A:/Desktop/Floating_point_adder/Modules/exception_adder.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 19:22:45 on Jun 20,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+A:/Desktop/Floating_point_adder/Modules" A:/Desktop/Floating_point_adder/Modules/exception_adder.sv 
+# -- Compiling package exception_adder_sv_unit
+# -- Importing package round_pkg
+# -- Compiling module exception_adder
+# 
+# Top level modules:
+# 	exception_adder
+# End time: 19:22:45 on Jun 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+cd A:/Desktop/Floating_point_adder/Modelsim_simulation_project
+# reading A:/App_installations/Altera/Quartus_lite/intelFPGA_lite/21.1/questa_fse/win64/../modelsim.ini
+vsim -gui -l msim_transcript work.tb_adder
+# vsim -gui -l msim_transcript work.tb_adder 
+# Start time: 19:24:04 on Jun 20,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: A:/Desktop/Floating_point_adder/Modules/fp_adder.sv(91): Module 'round_adder' is not defined.
+#  For instance 'round_adder_1' at path 'tb_adder.dut.main_adder'
+# ** Error: A:/Desktop/Floating_point_adder/Modules/fp_adder.sv(140): Module 'exception_adder' is not defined.
+#  For instance 'exception_adder_1' at path 'tb_adder.dut.main_adder'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
+# Error loading design
+# End time: 19:24:05 on Jun 20,2026, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+project open A:/Desktop/Floating_point_adder/Modelsim_simulation_project/Floating_point_adder_unit
+# Loading project Floating_point_adder_unit

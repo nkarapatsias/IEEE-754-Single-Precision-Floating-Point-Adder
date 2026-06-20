@@ -1,0 +1,296 @@
+m255
+K4
+z2
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dA:/Desktop/Floating_point_adder/Questa_project/simulation/modelsim
+vexception_adder
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 DXx4 work 9 round_pkg 0 22 zUkaWjAgjIAJKLZ_iUiZd0
+DXx4 work 23 exception_adder_sv_unit 0 22 M[H_Ym1BR]izjacKXmFDe3
+Z3 !s110 1781972565
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 LE`VJ9eQSZzPBdN2[lURi0
+I5R2R_j><;<oCmIZS46IL10
+!s105 exception_adder_sv_unit
+S1
+R0
+Z5 w1781465474
+Z6 8A:/Desktop/Floating_point_adder/Modules/exception_adder.sv
+Z7 FA:/Desktop/Floating_point_adder/Modules/exception_adder.sv
+!i122 8
+L0 3 154
+Z8 OL;L;2021.2;73
+31
+Z9 !s108 1781972565.000000
+!s107 A:/Desktop/Floating_point_adder/Modules/exception_adder.sv|
+Z10 !s90 -reportprogress|300|-sv|-work|work|+incdir+A:/Desktop/Floating_point_adder/Modules|A:/Desktop/Floating_point_adder/Modules/exception_adder.sv|
+!i113 0
+Z11 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -sv -work work +incdir+A:/Desktop/Floating_point_adder/Modules -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+Xexception_adder_sv_unit
+R1
+R2
+R3
+VM[H_Ym1BR]izjacKXmFDe3
+r1
+!s85 0
+!i10b 1
+!s100 fJb?V:ljXhVC>:f;dD_BK1
+IM[H_Ym1BR]izjacKXmFDe3
+!i103 1
+S1
+R0
+R5
+R6
+R7
+!i122 8
+Z14 L0 1 0
+R8
+31
+R9
+Z15 !s107 A:/Desktop/Floating_point_adder/Modules/exception_adder.sv|
+R10
+!i113 0
+R11
+R12
+R13
+vexponent_calc
+R1
+R3
+!i10b 1
+!s100 :?Y;[iGS6RJBAX6_EcUGA3
+I;M95^]6IzeNS9[HDbFZA01
+S1
+R0
+w1780676386
+8A:/Desktop/Floating_point_adder/Modules/exponent_calc.sv
+FA:/Desktop/Floating_point_adder/Modules/exponent_calc.sv
+!i122 6
+L0 1 28
+R4
+R8
+r1
+!s85 0
+31
+R9
+!s107 A:/Desktop/Floating_point_adder/Modules/exponent_calc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/Desktop/Floating_point_adder/Modules|A:/Desktop/Floating_point_adder/Modules/exponent_calc.sv|
+!i113 0
+R11
+R12
+R13
+vfp_adder
+R1
+R3
+!i10b 1
+!s100 k<:@idJB<emM@jKaQkLah0
+IF7Znh7k]R:_U0f<kfNlR`1
+S1
+R0
+w1781969018
+8A:/Desktop/Floating_point_adder/Modules/fp_adder.sv
+FA:/Desktop/Floating_point_adder/Modules/fp_adder.sv
+!i122 5
+L0 1 159
+R4
+R8
+r1
+!s85 0
+31
+R9
+!s107 A:/Desktop/Floating_point_adder/Modules/fp_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/Desktop/Floating_point_adder/Modules|A:/Desktop/Floating_point_adder/Modules/fp_adder.sv|
+!i113 0
+R11
+R12
+R13
+vfp_adder_top
+R1
+R3
+!i10b 1
+!s100 <XdW37[F0Qa@amJ7nEF]V2
+IiJ3oR2RHL=f2=IGJPaKCH0
+S1
+R0
+w1778259939
+8A:/Desktop/Floating_point_adder/Modules/fp_adder_top.sv
+FA:/Desktop/Floating_point_adder/Modules/fp_adder_top.sv
+!i122 4
+L0 8 37
+R4
+R8
+r1
+!s85 0
+31
+R9
+!s107 A:/Desktop/Floating_point_adder/Modules/fp_adder_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/Desktop/Floating_point_adder/Modules|A:/Desktop/Floating_point_adder/Modules/fp_adder_top.sv|
+!i113 0
+R11
+R12
+R13
+vlzc
+R1
+R3
+!i10b 1
+!s100 ei4LKPRkf^f@jEL9BFWhb1
+I@NGoQ6U^OLL?:K`TOnG<B0
+S1
+R0
+w1781817104
+8A:/Desktop/Floating_point_adder/Modules/lzc.sv
+FA:/Desktop/Floating_point_adder/Modules/lzc.sv
+!i122 3
+L0 1 17
+R4
+R8
+r1
+!s85 0
+31
+R9
+!s107 A:/Desktop/Floating_point_adder/Modules/lzc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/Desktop/Floating_point_adder/Modules|A:/Desktop/Floating_point_adder/Modules/lzc.sv|
+!i113 0
+R11
+R12
+R13
+vmantissa_calc
+R1
+R3
+!i10b 1
+!s100 UdL2SQhHK>hOKZAX=l4h20
+IgO_fk7W4GcJU::XfQPacJ3
+S1
+R0
+w1781816666
+8A:/Desktop/Floating_point_adder/Modules/mantissa_calc.sv
+FA:/Desktop/Floating_point_adder/Modules/mantissa_calc.sv
+!i122 2
+L0 1 54
+R4
+R8
+r1
+!s85 0
+31
+Z16 !s108 1781972564.000000
+!s107 A:/Desktop/Floating_point_adder/Modules/mantissa_calc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/Desktop/Floating_point_adder/Modules|A:/Desktop/Floating_point_adder/Modules/mantissa_calc.sv|
+!i113 0
+R11
+R12
+R13
+vnorm_adder
+R1
+Z17 !s110 1781972564
+!i10b 1
+!s100 SIoOldKza<Ri1KaEk@g[P0
+I^XKCTW_iHZz;aS_NnX];J3
+S1
+R0
+w1781817150
+8A:/Desktop/Floating_point_adder/Modules/norm_adder.sv
+FA:/Desktop/Floating_point_adder/Modules/norm_adder.sv
+!i122 1
+L0 1 41
+R4
+R8
+r1
+!s85 0
+31
+R16
+!s107 A:/Desktop/Floating_point_adder/Modules/norm_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/Desktop/Floating_point_adder/Modules|A:/Desktop/Floating_point_adder/Modules/norm_adder.sv|
+!i113 0
+R11
+R12
+R13
+vround_adder
+R1
+R2
+DXx4 work 19 round_adder_sv_unit 0 22 JT<zhdFG@m2PE>DeaA2F<3
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 <@S5CC7JTQHeeaV^<Oen_0
+If9m^LN[n<Z_B:VXA]:K3l1
+!s105 round_adder_sv_unit
+S1
+R0
+Z18 w1780862158
+Z19 8A:/Desktop/Floating_point_adder/Modules/round_adder.sv
+Z20 FA:/Desktop/Floating_point_adder/Modules/round_adder.sv
+!i122 7
+L0 3 53
+R8
+31
+R9
+Z21 !s107 A:/Desktop/Floating_point_adder/Modules/round_adder.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+A:/Desktop/Floating_point_adder/Modules|A:/Desktop/Floating_point_adder/Modules/round_adder.sv|
+!i113 0
+R11
+R12
+R13
+Xround_adder_sv_unit
+R1
+R2
+R3
+VJT<zhdFG@m2PE>DeaA2F<3
+r1
+!s85 0
+!i10b 1
+!s100 Pg=9g>jU]lh4XefaFN48j1
+IJT<zhdFG@m2PE>DeaA2F<3
+!i103 1
+S1
+R0
+R18
+R19
+R20
+!i122 7
+R14
+R8
+31
+R9
+R21
+R22
+!i113 0
+R11
+R12
+R13
+Xround_pkg
+R1
+R17
+!i10b 1
+!s100 W:akRgfNUhk0KQ>Dk1[I10
+IzUkaWjAgjIAJKLZ_iUiZd0
+S1
+R0
+w1780862162
+8A:/Desktop/Floating_point_adder/Modules/round_pkg.sv
+FA:/Desktop/Floating_point_adder/Modules/round_pkg.sv
+!i122 0
+R14
+VzUkaWjAgjIAJKLZ_iUiZd0
+R8
+r1
+!s85 0
+31
+R16
+!s107 A:/Desktop/Floating_point_adder/Modules/round_pkg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/Desktop/Floating_point_adder/Modules|A:/Desktop/Floating_point_adder/Modules/round_pkg.sv|
+!i113 0
+R11
+R12
+R13
