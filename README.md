@@ -24,11 +24,17 @@ The repository is organized to cleanly separate the RTL source code, golden refe
 
 * 📦 **IEEE-754-FP-Adder**
   * 📁 **Modules/** — Core SystemVerilog RTL and Verification
-    * 📄 `fp_adder_top.sv` — Top-level module wrapper
-    * 📄 `mant_calc.sv` — Mantissa alignment & 49-bit shift logic
-    * 📄 `round_adder.sv` — GRS bit evaluation & rounding
-    * 📄 `tb_adder.sv` — Master testbench & pipeline sync
-    * 📄 `fp_adder_assertions.sv` — Immediate & concurrent SVAs
+   *📄 fp_adder_top.sv — Top-level module wrapper with pipeline registers
+   *📄 fp_adder.sv — Main datapath instantiating all sub-modules
+   *📄 exponent_calc.sv — Exponent difference and maximum exponent logic
+   *📄 mantissa_calc.sv — Mantissa alignment & 49-bit shift logic
+   *📄 lzc.sv — Leading Zero Counter for fraction normalization
+   *📄 norm_adder.sv — Post-addition normalization shifting
+   *📄 round_pkg.sv — Rounding mode enumerations and typedefs
+   *📄 round_adder.sv — GRS bit evaluation & rounding logic
+   *📄 exception_adder.sv — Corner case and boundary clamping logic
+   *📄 tb_adder.sv — Master testbench & pipeline sync
+   *📄 SVA.sv — Immediate & concurrent SystemVerilog Assertions
   * 📁 **Reference model/** — Berkeley Hardfloat library files
   * 📁 **Quartus_project/** — Intel Quartus Prime synthesis & physical mapping
   * 📁 **Questa_simulation_project/** — Questa/ModelSim simulation & coverage workspace
