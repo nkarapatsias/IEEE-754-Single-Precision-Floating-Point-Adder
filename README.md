@@ -30,19 +30,21 @@ SystemVerilog Assertions (SVA): Integrates both Immediate Assertions (for mutual
 
 📂 Repository Structure
 
-The repository is organized to separate the RTL source code, golden reference models, and specific EDA tool workflows:
+The repository is organized to cleanly separate the RTL source code, golden reference models, and specific EDA tool workflows.
 
-Modules/: Contains all the SystemVerilog RTL source files (fp_adder_top.sv, mant_calc.sv, round_adder.sv, etc.), the testbench (tb_adder.sv), and the SVA definitions (fp_adder_assertions.sv).
+📦 IEEE-754-FP-Adder
+├── 📁 Modules/                     # Core SystemVerilog RTL and Verification
+│   ├── fp_adder_top.sv             # Top-level module wrapper
+│   ├── mant_calc.sv                # Mantissa alignment & 49-bit shift logic
+│   ├── round_adder.sv              # GRS bit evaluation & rounding
+│   ├── tb_adder.sv                 # Master testbench & pipeline sync
+│   └── fp_adder_assertions.sv      # Immediate & concurrent SVAs
+├── 📁 Reference model/             # Berkeley Hardfloat library files
+├── 📁 Quartus_project/             # Intel Quartus Prime synthesis & physical mapping
+├── 📁 Questa_simulation_project/   # Questa/ModelSim simulation & coverage workspace
+├── 📁 Requirments/                 # Architectural specs and lab guidelines
+└── 📁 Report/                      # Technical documentation and block diagrams
 
-Reference model/: Contains the Berkeley Hardfloat library files used by the testbench to generate the golden expected results during simulation.
-
-Quartus_project/: Intel Quartus Prime project files for physical FPGA synthesis, timing analysis, and logic utilization mapping.
-
-Questa_simulation_project/: Questa/ModelSim project files configured for RTL simulation, testbench execution, and SVA coverage tracking.
-
-Requirments/: Project specifications, lab coursework PDFs, and architectural guidelines.
-
-Report/: Detailed technical documentation featuring architectural block diagrams, pipeline explanations, and final verification statistics.
 
 🛠️ Verification & Simulation
 
