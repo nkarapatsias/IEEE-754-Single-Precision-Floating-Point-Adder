@@ -1,4 +1,4 @@
-content = """# IEEE-754 Single Precision Floating-Point Adder
+# IEEE-754 Single Precision Floating-Point Adder
 
 A high-performance, 32-bit Floating-Point Adder/Subtractor designed in SystemVerilog. This IP core is architected as a foundational building block for digital signal processing (DSP) and embedded audio accelerators. 
 
