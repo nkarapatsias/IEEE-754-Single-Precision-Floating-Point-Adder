@@ -1,0 +1,154 @@
+A:/Desktop/Floating_point_adder/Modules/exponent_calc.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/exponent_calc.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module exponent_calc
+
+Top level modules:
+	exponent_calc
+
+} {} {}} A:/Desktop/Floating_point_adder/Modules/norm_adder.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/norm_adder.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module norm_adder
+
+Top level modules:
+	norm_adder
+
+} {} {}} A:/Desktop/Floating_point_adder/Referece_model/isSigNaNRecFN.v {1 {vlog -work work -vopt -stats=none A:/Desktop/Floating_point_adder/Referece_model/isSigNaNRecFN.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module isSigNaNRecFN
+
+Top level modules:
+	isSigNaNRecFN
+
+} {} {}} A:/Desktop/Floating_point_adder/Referece_model/HardFloat_rawFN.v {1 {vlog -work work -vopt -stats=none A:/Desktop/Floating_point_adder/Referece_model/HardFloat_rawFN.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module recFNToRawFN
+-- Compiling module roundAnyRawFNToRecFN
+-- Compiling module roundRawFNToRecFN
+
+Top level modules:
+	recFNToRawFN
+	roundRawFNToRecFN
+
+} {} {}} A:/Desktop/Floating_point_adder/Modules/round_adder.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/round_adder.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling package round_adder_sv_unit
+-- Importing package round_pkg
+-- Compiling module round_adder
+
+Top level modules:
+	round_adder
+
+} {} {}} A:/Desktop/Floating_point_adder/Modules/round_pkg.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/round_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling package round_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} A:/Desktop/Floating_point_adder/Referece_model/fNToRecFN.v {1 {vlog -work work -vopt -stats=none A:/Desktop/Floating_point_adder/Referece_model/fNToRecFN.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module fNToRecFN
+
+Top level modules:
+	fNToRecFN
+
+} {} {}} A:/Desktop/Floating_point_adder/Modules/SVA.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/SVA.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module test_status_bits
+-- Compiling module test_status_z_combinations
+
+Top level modules:
+	test_status_bits
+	test_status_z_combinations
+
+} {} {}} A:/Desktop/Floating_point_adder/Referece_model/recFNToRecFN.v {2 {vlog -work work -vopt -stats=none A:/Desktop/Floating_point_adder/Referece_model/recFNToRecFN.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module recFNToRecFN
+** Warning: A:/Desktop/Floating_point_adder/Referece_model/recFNToRecFN.v(79): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	recFNToRecFN
+
+} {} {}} A:/Desktop/Floating_point_adder/Referece_model/addRecFN.v {1 {vlog -work work -vopt -stats=none A:/Desktop/Floating_point_adder/Referece_model/addRecFN.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module addRecFNToRaw
+-- Compiling module addRecFN
+
+Top level modules:
+	addRecFN
+
+} {} {}} A:/Desktop/Floating_point_adder/Modules/tb_adder.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/tb_adder.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module tb_adder
+
+Top level modules:
+	tb_adder
+
+} {} {}} A:/Desktop/Floating_point_adder/Referece_model/HardFloat_primitives.v {1 {vlog -work work -vopt -stats=none A:/Desktop/Floating_point_adder/Referece_model/HardFloat_primitives.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module reverse
+-- Compiling module lowMaskHiLo
+-- Compiling module lowMaskLoHi
+-- Compiling module countLeadingZeros
+-- Compiling module compressBy2
+-- Compiling module compressBy4
+
+Top level modules:
+	lowMaskHiLo
+	lowMaskLoHi
+	countLeadingZeros
+	compressBy2
+	compressBy4
+
+} {} {}} A:/Desktop/Floating_point_adder/Modules/fp_adder.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/fp_adder.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module fp_adder
+
+Top level modules:
+	fp_adder
+
+} {} {}} A:/Desktop/Floating_point_adder/Modules/exception_adder.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/exception_adder.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling package exception_adder_sv_unit
+-- Importing package round_pkg
+-- Compiling module exception_adder
+
+Top level modules:
+	exception_adder
+
+} {} {}} A:/Desktop/Floating_point_adder/Modules/fp_adder_top.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/fp_adder_top.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module fp_adder_top
+
+Top level modules:
+	fp_adder_top
+
+} {} {}} A:/Desktop/Floating_point_adder/Modules/lzc.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/lzc.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module lzc
+
+Top level modules:
+	lzc
+
+} {} {}} A:/Desktop/Floating_point_adder/Modules/mantissa_calc.sv {1 {vlog -work work -vopt -sv -stats=none A:/Desktop/Floating_point_adder/Modules/mantissa_calc.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module mantissa_calc
+
+Top level modules:
+	mantissa_calc
+
+} {} {}} A:/Desktop/Floating_point_adder/Referece_model/HardFloat_specialize.v {1 {vlog -work work -vopt -stats=none A:/Desktop/Floating_point_adder/Referece_model/HardFloat_specialize.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module iNFromException
+
+Top level modules:
+	iNFromException
+
+} {} {}} A:/Desktop/Floating_point_adder/Referece_model/recFNToFN.v {1 {vlog -work work -vopt -stats=none A:/Desktop/Floating_point_adder/Referece_model/recFNToFN.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module recFNToFN
+
+Top level modules:
+	recFNToFN
+
+} {} {}}

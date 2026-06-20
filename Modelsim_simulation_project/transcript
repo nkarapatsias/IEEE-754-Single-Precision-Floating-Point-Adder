@@ -1,0 +1,20 @@
+# Compile of exception_adder.sv was successful.
+# Compile of exponent_calc.sv was successful.
+# Compile of fp_adder.sv was successful.
+# Compile of fp_adder_top.sv was successful.
+# Compile of lzc.sv was successful.
+# Compile of mantissa_calc.sv was successful.
+# Compile of norm_adder.sv was successful.
+# Compile of round_adder.sv was successful.
+# Compile of round_pkg.sv was successful.
+# Compile of SVA.sv was successful.
+# Compile of tb_adder.sv was successful.
+# Compile of addRecFN.v was successful.
+# Compile of fNToRecFN.v was successful.
+# Compile of HardFloat_primitives.v was successful.
+# Compile of HardFloat_rawFN.v was successful.
+# Compile of HardFloat_specialize.v was successful.
+# Compile of isSigNaNRecFN.v was successful.
+# Compile of recFNToFN.v was successful.
+# Compile of recFNToRecFN.v was successful with warnings.
+# 19 compiles, 0 failed with no errors.

@@ -1,0 +1,895 @@
+vsim -gui -l msim_transcript work.tb_adder
+# vsim -gui -l msim_transcript work.tb_adder 
+# Start time: 19:27:40 on Jun 20,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.round_pkg(fast)
+# Loading work.exception_adder_sv_unit(fast)
+# Loading work.round_adder_sv_unit(fast)
+# Loading work.tb_adder(fast)
+# Loading work.fNToRecFN(fast)
+# Loading work.addRecFN(fast)
+# Loading work.recFNToFN(fast)
+run -all
+# =======================================================
+#    STARTING CORNER CASE TESTS                          
+# =======================================================
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 0 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 0 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 0 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 0 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 0 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 0 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 0 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 0 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Tiny and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Tiny and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 0 | Expected: 00000000 | Got: 80000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 0 | Expected: 00000000 | Got: 80000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Tiny and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 40000000 | Got: 3fffffff
+# CORNER ERROR | Rnd: 1 | Expected: 40000000 | Got: 3fffffff
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Tiny and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 1 | Expected: c0000000 | Got: bfffffff
+# CORNER ERROR | Rnd: 1 | Expected: c0000000 | Got: bfffffff
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: c0000000 | Got: bfffffff
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 40000000 | Got: 3fffffff
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 00000000 | Got: 80000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: c0000000 | Got: bfffffff
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 00000000 | Got: 80000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 1 | Expected: 40000000 | Got: 3fffffff
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Tiny and Huge did not assert together.
+# CORNER ERROR | Rnd: 2 | Expected: 80000000 | Got: 00000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 40000000 | Got: 3fffffff
+# CORNER ERROR | Rnd: 2 | Expected: 40000000 | Got: 3fffffff
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Tiny and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 80000000 | Got: 00000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 2 | Expected: c0000000 | Got: c0000001
+# CORNER ERROR | Rnd: 2 | Expected: c0000000 | Got: c0000001
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 80000000 | Got: 00000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 80000000 | Got: 00000000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 40000000 | Got: 3fffffff
+# CORNER ERROR | Rnd: 2 | Expected: c0000000 | Got: c0000001
+# [PASS] Zero and Huge did not assert together.
+# CORNER ERROR | Rnd: 2 | Expected: 80000000 | Got: 00000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 80000000 | Got: 00000000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 2 | Expected: 40000000 | Got: 3fffffff
+# CORNER ERROR | Rnd: 2 | Expected: c0000000 | Got: c0000001
+# [PASS] Zero and Huge did not assert together.
+# CORNER ERROR | Rnd: 2 | Expected: 80000000 | Got: 00000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 80000000 | Got: 00000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Tiny and Huge did not assert together.
+# CORNER ERROR | Rnd: 3 | Expected: 00000000 | Got: 00800000
+# CORNER ERROR | Rnd: 3 | Expected: 40000000 | Got: 40000001
+# CORNER ERROR | Rnd: 3 | Expected: 40000000 | Got: 40000001
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Tiny and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 00000000 | Got: 00800000
+# CORNER ERROR | Rnd: 3 | Expected: c0000000 | Got: bfffffff
+# CORNER ERROR | Rnd: 3 | Expected: c0000000 | Got: bfffffff
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 40000000 | Got: 40000001
+# CORNER ERROR | Rnd: 3 | Expected: c0000000 | Got: bfffffff
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 00000000 | Got: 80000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 40000000 | Got: 40000001
+# CORNER ERROR | Rnd: 3 | Expected: c0000000 | Got: bfffffff
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 3 | Expected: 00000000 | Got: 80000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 4 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 4 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 4 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 4 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 4 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 4 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 4 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] NaN and Zero did not assert together.
+# [PASS] NaN and Inf did not assert together.
+# [PASS - IMM] NaN and Tiny did not assert together.
+# [PASS] NaN and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# CORNER ERROR | Rnd: 4 | Expected: 7f800000 | Got: 7fc00000
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] NaN flag successfully tracked back to +Inf/-Inf inputs.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Tiny and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Tiny and Huge did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 4 | Expected: 00000000 | Got: 80000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# CORNER ERROR | Rnd: 4 | Expected: 00000000 | Got: 80000000
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# =======================================================
+#    STARTING RANDOM TESTS                               
+# =======================================================
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Zero and Huge did not assert together.
+# [PASS] Tiny and Huge did not assert together.
+# [PASS] Zero flag successfully matched with 0x00 exponent.
+# RANDOM ERROR | Rnd: 1 | Expected: 29b0faed | Got: 29b0faec
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# RANDOM ERROR | Rnd: 1 | Expected: 8b19b7b2 | Got: 8b19b7ae
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# RANDOM ERROR | Rnd: 1 | Expected: b662462d | Got: b662462c
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# RANDOM ERROR | Rnd: 1 | Expected: 27e09be6 | Got: 27e09be5
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# RANDOM ERROR | Rnd: 2 | Expected: 3825cf8e | Got: 3825cf8d
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Huge flag successfully matched with Overflow boundaries.
+# RANDOM ERROR | Rnd: 2 | Expected: 5706c1b0 | Got: 5706c1af
+# RANDOM ERROR | Rnd: 2 | Expected: 283e6e10 | Got: 2afa0c8f
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# RANDOM ERROR | Rnd: 2 | Expected: 96d373ec | Got: 96d373ed
+# RANDOM ERROR | Rnd: 2 | Expected: b24a4e2a | Got: b24a4e2b
+# RANDOM ERROR | Rnd: 2 | Expected: af2c446f | Got: af2c4470
+# RANDOM ERROR | Rnd: 2 | Expected: bbed73ba | Got: bbed73bb
+# RANDOM ERROR | Rnd: 2 | Expected: 979e7286 | Got: 979e7287
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# RANDOM ERROR | Rnd: 3 | Expected: 6476715b | Got: 6476715c
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# RANDOM ERROR | Rnd: 3 | Expected: 61c41470 | Got: 61c41471
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# RANDOM ERROR | Rnd: 3 | Expected: 08961d3e | Got: 08961ccb
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# RANDOM ERROR | Rnd: 3 | Expected: a02d5807 | Got: a02d5806
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# RANDOM ERROR | Rnd: 4 | Expected: ab85ed38 | Got: adf7a12d
+# RANDOM ERROR | Rnd: 4 | Expected: 01a52082 | Got: 01c4fe9c
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# [PASS] Inf and Tiny did not assert together.
+# [PASS] Infinity flag successfully matched with 0xFF exponent.
+# =======================================================
+# 						SIMULATION STATISTICS
+# =======================================================
+# Total Random Tests Executed : 5000
+# Random Tests SUCCESS Rate   : 4982 / 5000
+# -------------------------------------------------------
+# Total Corner Tests Executed : 500
+# Corner Tests SUCCESS Rate   : 418 / 500
+# =======================================================
+# ** Note: $finish    : A:/Desktop/Floating_point_adder/Modules/tb_adder.sv(263)
+#    Time: 55100 ns  Iteration: 1  Instance: /tb_adder
+# 1
+# Break at A:/Desktop/Floating_point_adder/Modules/tb_adder.sv line 263
+# End time: 19:48:21 on Jun 20,2026, Elapsed time: 0:20:41
+# Errors: 0, Warnings: 2
