@@ -133,9 +133,8 @@ module tb_adder ();
 			results_ref = results_hf;
 	end
 
-	// ========================================================================
-	// CORNER CASE ENUMERATION & FUNCTIONS
-	// ========================================================================
+	
+	// Helping enum for corner cases
 	typedef enum logic [3:0] {
 	  pos_nan,
 	  neg_nan,
